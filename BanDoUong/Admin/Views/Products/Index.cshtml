@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Admin.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Dashboard Quản trị</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-gray-800 text-white flex flex-col">
+        <div class="p-4 text-center text-2xl font-bold border-b border-gray-700">Dashboard</div>
+        <nav class="flex-1 p-4 space-y-2">
+            <a href="#" class="block w-full text-left px-3 py-2 rounded bg-gray-700">Sản phẩm</a>
+            <a href="#" class="block w-full text-left px-3 py-2 rounded hover:bg-gray-700">Đơn hàng</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold">Danh sách sản phẩm</h2>
+            @Html.ActionLink("Thêm sản phẩm", "Create", null, new { @class = "bg-green-600 text-white px-4 py-2 rounded" })
+        </div>
+
+        <div class="overflow-x-auto bg-white rounded shadow">
+            <table class="min-w-full text-left text-sm">
+                <thead class="bg-gray-100 text-gray-600 uppercase text-xs">
+                    <tr>
+                        <th class="px-4 py-2">Tên</th>
+                        <th class="px-4 py-2">Mô tả</th>
+                        <th class="px-4 py-2">Giá</th>
+                        <th class="px-4 py-2">Giá cũ</th>
+                        <th class="px-4 py-2">Ảnh</th>
+                        <th class="px-4 py-2">Danh mục</th>
+                        <th class="px-4 py-2">Trạng thái</th>
+                        <th class="px-4 py-2">Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="border-t">
+                            <td class="px-4 py-2">@item.name</td>
+                            <td class="px-4 py-2 text-gray-600">@item.description</td>
+                            <td class="px-4 py-2">@item.price.ToString("N0") đ</td>
+                            <td class="px-4 py-2">@item.old_price</td>
+                            <td class="px-4 py-2">
+                                @{ 
+                                    string pathImage = "~/Image_Water/" + item.thumbnail;
+
+                                }
+
+                            <img src="@Url.Content(pathImage)" class="w-16 h-10 object-cover rounded" />
+                            </td>
+                            <td class="px-4 py-2">@item.category</td>
+                            <td class="px-4 py-2">
+                            @{ if (item.status)
+                                {
+                                <h3>Có hàng</h3>
+                                }
+                                else {
+                                <h3>Hết hàng</h3>
+                                    }
+                                }
+
+
+
+
+                            </td>
+                            <td class="px-4 py-2 space-x-2">
+                                @Html.ActionLink("Xem", "Details", new { id = item.product_id }, new { @class = "text-blue-600" }) |
+                                @Html.ActionLink("Sửa", "Edit", new { id = item.product_id }, new { @class = "text-yellow-600" }) |
+                                @Html.ActionLink("Xóa", "Delete", new { id = item.product_id }, new { @class = "text-red-600" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BanDoUong\\User.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Admin\\Admin.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

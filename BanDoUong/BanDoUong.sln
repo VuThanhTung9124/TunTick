@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "BanDoUong\User.csproj", "{10C54038-2976-47DF-8915-8E05983AA521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "Admin\Admin.csproj", "{9FF91969-F5D2-4866-9F4E-4B610388A964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		BanDoUong\Image_Water\bac_xiu.jpg = BanDoUong\Image_Water\bac_xiu.jpg
+		BanDoUong\Image_Water\ca_phe_sua_da.jpg = BanDoUong\Image_Water\ca_phe_sua_da.jpg
+		BanDoUong\Image_Water\cookie_socola.jpg = BanDoUong\Image_Water\cookie_socola.jpg
+		BanDoUong\Image_Water\hong_tra_kem_sua.jpg = BanDoUong\Image_Water\hong_tra_kem_sua.jpg
+		BanDoUong\Image_Water\matcha_latte_cheese.jpg = BanDoUong\Image_Water\matcha_latte_cheese.jpg
+		BanDoUong\Image_Water\oolong_moc_sen.jpg = BanDoUong\Image_Water\oolong_moc_sen.jpg
+		BanDoUong\Image_Water\sinh_to_xoai.jpg = BanDoUong\Image_Water\sinh_to_xoai.jpg
+		BanDoUong\Image_Water\tra_dao_cam_sa.jpg = BanDoUong\Image_Water\tra_dao_cam_sa.jpg
+		BanDoUong\Image_Water\tra_sen_vang.jpg = BanDoUong\Image_Water\tra_sen_vang.jpg
+		BanDoUong\Image_Water\tra_sua_truyen_thong.jpg = BanDoUong\Image_Water\tra_sua_truyen_thong.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C54038-2976-47DF-8915-8E05983AA521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C54038-2976-47DF-8915-8E05983AA521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C54038-2976-47DF-8915-8E05983AA521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C54038-2976-47DF-8915-8E05983AA521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF91969-F5D2-4866-9F4E-4B610388A964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF91969-F5D2-4866-9F4E-4B610388A964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF91969-F5D2-4866-9F4E-4B610388A964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF91969-F5D2-4866-9F4E-4B610388A964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52C17C9E-F757-4F96-AD52-6E8B3BCBA729}
+	EndGlobalSection
+EndGlobal
