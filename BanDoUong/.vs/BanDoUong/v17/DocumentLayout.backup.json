@@ -1,106 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\",
+  "WorkspaceRootPath": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|c:\\th\u1EF1c h\u00E0nh - l\u1EADp tr\u00ECnh web b\u1EB1ng asp.net\\bandouong\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|c:\\th\u1EF1c h\u00E0nh - l\u1EADp tr\u00ECnh web b\u1EB1ng asp.net\\project_bandouong\\bandouong\\bandouong\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\views\\products\\xemgiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\views\\products\\xemgiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\views\\products\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\views\\products\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\views\\products\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\bandouong\\models\\emaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\User.csproj|solutionrelative:bandouong\\models\\emaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\admin\\models\\douongdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\admin\\models\\douongdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FF91969-F5D2-4866-9F4E-4B610388A964}|Admin\\Admin.csproj|solutionrelative:admin\\models\\douongdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\controllers\\emailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\controllers\\emailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\models\\douongdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\models\\douongdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\bandouong\\models\\emaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C54038-2976-47DF-8915-8E05983AA521}|BanDoUong\\BanDoUong.csproj|solutionrelative:bandouong\\models\\emaildb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\EmailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\DoUongDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,50 +134,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ThanhToan.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "BanDoUong\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:18:39.902Z",
+              "WhenOpened": "2025-11-02T09:24:54.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeToolTip": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAQwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:18:39.951Z",
+              "WhenOpened": "2025-11-02T09:15:48.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIEAAABkAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "XemGioHang.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\XemGioHang.cshtml",
+              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\XemGioHang.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\XemGioHang.cshtml",
+              "RelativeToolTip": "BanDoUong\\Views\\Products\\XemGioHang.cshtml",
+              "ViewState": "AgIAANYAAAAAAAAAAAAQwAMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:18:39.999Z",
+              "WhenOpened": "2025-11-02T09:15:27.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BanDoUong\\Models\\Product.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\Product.cs",
+              "RelativeToolTip": "BanDoUong\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:14:04.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailDb.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
+              "RelativeDocumentMoniker": "BanDoUong\\Models\\EmailDb.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
+              "RelativeToolTip": "BanDoUong\\Models\\EmailDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:14:03.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "BanDoUong\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Models\\CartItem.cs",
+              "RelativeToolTip": "BanDoUong\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:13:36.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BanDoUong\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs*",
+              "RelativeToolTip": "BanDoUong\\Controllers\\ProductsController.cs*",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAxwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:07:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "BanDoUong\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAABMBAAAAAAAAAAAQwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T09:05:35.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:18:39.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:18:39.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:18:39.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Create.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "Admin\\Views\\Products\\Create.cshtml",
               "ViewState": "AgIAACYAAAAAAAAAAAAiwDgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -170,11 +284,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "Admin\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "Admin\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -196,11 +310,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "Admin\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAACUAAAAAAAAAAAAAADcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -209,11 +323,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Products\\Delete.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Delete.cshtml",
               "RelativeToolTip": "Admin\\Views\\Products\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -222,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Edit.cshtml",
               "RelativeToolTip": "Admin\\Views\\Products\\Edit.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -235,11 +349,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Details.cshtml",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Details.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Views\\Products\\Details.cshtml",
               "RelativeToolTip": "Admin\\Views\\Products\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -248,12 +362,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Controllers\\ProductsController.cs*",
-              "RelativeToolTip": "Admin\\Controllers\\ProductsController.cs*",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Admin\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAiwEQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:58:52.663Z",
@@ -261,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "DoUongDb.cs",
-              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Models\\DoUongDb.cs",
+              "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Models\\DoUongDb.cs",
               "RelativeDocumentMoniker": "Admin\\Models\\DoUongDb.cs",
-              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\Admin\\Models\\DoUongDb.cs",
+              "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\Project_BanDoUong\\BanDoUong\\Admin\\Models\\DoUongDb.cs",
               "RelativeToolTip": "Admin\\Models\\DoUongDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,157 +388,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "ThanhToan.cshtml",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\ThanhToan.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\ThanhToan.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-29T07:48:36.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\App_Start\\RouteConfig.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "BanDoUong\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\App_Start\\RouteConfig.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T07:02:21.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Shared\\Error.cshtml",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Shared\\Error.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-29T07:01:47.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Details.cshtml",
               "ViewState": "AgIAADoAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-28T12:06:15.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Shared\\_Layout.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-28T12:01:45.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Email.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Models\\Email.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Models\\Email.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Email.cs",
-              "RelativeToolTip": "BanDoUong\\Models\\Email.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Models\\Email.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T09:02:12.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "EmailsController.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\EmailsController.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Controllers\\EmailsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\EmailsController.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\EmailsController.cs",
-              "RelativeToolTip": "BanDoUong\\Controllers\\EmailsController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCIAAAAfAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\EmailsController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T09:01:22.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "EmailDb.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Models\\EmailDb.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
-              "RelativeToolTip": "BanDoUong\\Models\\EmailDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Models\\EmailDb.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T09:00:32.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "BanDoUong\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAHsAAAAAAAAAAAAuwJUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-27T15:18:17.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "BanDoUong\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wDUAAAAaAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\ProductsController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T15:16:57.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BanDoUong\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Controllers\\HomeController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T15:16:18.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Models\\Product.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\Product.cs",
-              "RelativeToolTip": "BanDoUong\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Models\\Product.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T15:15:58.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "DoUongDb.cs",
               "DocumentMoniker": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\DoUongDb.cs",
-              "RelativeDocumentMoniker": "BanDoUong\\Models\\DoUongDb.cs",
+              "RelativeDocumentMoniker": "..\\..\\BanDoUong\\BanDoUong\\Models\\DoUongDb.cs",
               "ToolTip": "C:\\Th\u1EF1c H\u00E0nh - L\u1EADp tr\u00ECnh web b\u1EB1ng ASP.Net\\BanDoUong\\BanDoUong\\Models\\DoUongDb.cs",
-              "RelativeToolTip": "BanDoUong\\Models\\DoUongDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\BanDoUong\\BanDoUong\\Models\\DoUongDb.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T15:14:24.471Z"
             }
