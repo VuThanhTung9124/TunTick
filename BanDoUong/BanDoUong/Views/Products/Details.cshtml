@@ -21,7 +21,7 @@
             <div class="flex justify-between items-center py-4">
                 <a href="#" class="flex items-center gap-3">
                     <img src="https://cdn-icons-png.flaticon.com/512/2983/2983762.png" alt="Logo" class="h-10 w-10 object-contain" />
-                    <span class="hidden sm:inline-block text-lg font-bold text-amber-600">Tunio</span>
+                    <span class="hidden sm:inline-block text-lg font-bold text-amber-600">Xin chào: @Session["User"]</span>
                 </a>
 
                 <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
@@ -85,14 +85,18 @@
                     </div>
 
                     <div class="mt-6 flex gap-3">
-                      
-                        <button type="submit"
+
+                        @*<button type="submit"
                                 class="bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 shadow-md">
                             MUA NGAY
-                        </button>
+                        </button>*@
 
-                        <!-- Nút Thêm vào giỏ: dùng ActionLink -->
-                        @Html.ActionLink("Thêm vào giỏ","GioHang", "Products", new { id = Model.product_id }, 
+                        @Html.ActionLink("Mua ngay", "MuaNgay", "Products", new { id = Model.product_id },
+    new { @class = "bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 shadow-md" }
+)
+
+
+                        @Html.ActionLink("Thêm vào giỏ", "GioHang", "Products", new { id = Model.product_id },
                             new { @class = "border border-amber-600 text-amber-600 px-6 py-3 rounded-lg font-medium hover:bg-amber-50 inline-block text-center" }
                         )
                     </div>

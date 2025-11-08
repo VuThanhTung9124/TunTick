@@ -86,10 +86,15 @@ namespace BanDoUong.Controllers
         // Nó nhận vào tham số id (id của sản phẩm được chọn)
         public ActionResult GioHang(int? id)
         {
-
+            if (Session["User"] == null)
+            {
+                return RedirectToAction("DangNhap", "Accounts");
+            }
+            else
+            {
 // Bước 1: Kiểm tra xem có id sản phẩm được truyền lên không
-// Nếu người dùng không chọn sản phẩm (id = null)
-// thì quay về trang Index (tránh lỗi)
+            // Nếu người dùng không chọn sản phẩm (id = null)
+            // thì quay về trang Index (tránh lỗi)
 
             if (id == null)
             {
@@ -160,6 +165,9 @@ namespace BanDoUong.Controllers
             // Bước 7: Chuyển hướng người dùng đến trang "Xem Giỏ Hàng"
             // để họ thấy danh sách sản phẩm mình đã thêm
             return RedirectToAction("XemGioHang");
+            }
+
+            
         }
 
 
@@ -222,6 +230,27 @@ namespace BanDoUong.Controllers
 
           
             return View(cartItems);
+        }
+
+
+        public ActionResult MuaNgay(int id)
+        {
+
+            if (Session["User"] == null)
+            {
+                return RedirectToAction("DangNhap", "Accounts");
+            }
+
+            else
+            {
+  var query = (from a in db.Products
+                        where a.product_id == id
+                        select a).FirstOrDefault();
+
+            return View(query);
+            }
+          
+
         }
 
 

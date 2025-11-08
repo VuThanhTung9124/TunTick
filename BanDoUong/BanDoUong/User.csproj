@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\EmailsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
@@ -136,6 +137,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\AccountDb.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\DonHangDb.cs" />
     <Compile Include="Models\DoUongDb.cs" />
@@ -165,6 +168,8 @@
     <Content Include="Content\Images\banner1.jpg" />
     <Content Include="Content\Images\banner2.png" />
     <Content Include="Content\Images\banner3.png" />
+    <Content Include="Content\Images\dangki.jpg" />
+    <Content Include="Content\Images\dangnhap.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -213,15 +218,13 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\ThanhToan.cshtml" />
     <Content Include="Views\Products\XemGioHang.cshtml" />
-    <Content Include="Views\Orders\Create.cshtml" />
-    <Content Include="Views\Orders\Delete.cshtml" />
-    <Content Include="Views\Orders\Details.cshtml" />
-    <Content Include="Views\Orders\Edit.cshtml" />
     <Content Include="Views\Orders\Index.cshtml" />
+    <Content Include="Views\Accounts\DangNhap.cshtml" />
+    <Content Include="Views\Accounts\DangKi.cshtml" />
+    <Content Include="Views\Products\MuaNgay.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\CartItem\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

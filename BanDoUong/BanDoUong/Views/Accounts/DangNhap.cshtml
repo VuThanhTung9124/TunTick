@@ -1,0 +1,62 @@
+﻿@{
+    Layout = null; // nếu muốn view tự do, không dùng layout
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .glass {
+            background: rgba(255,255,255,0.25);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .btn-yellow {
+            background: linear-gradient(90deg,#f59e0b,#eab308);
+        }
+
+            .btn-yellow:hover {
+                filter: brightness(1.1);
+            }
+    </style>
+</head>
+<body class="bg-[url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center min-h-screen">
+
+    <!-- Wrapper căn giữa -->
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="glass shadow-xl rounded-2xl p-10 w-full max-w-md text-white">
+            <h2 class="text-4xl font-bold text-center drop-shadow-lg">Đăng nhập</h2>
+            <p class="text-center opacity-90 mb-6 text-sm">@ViewBag.ErrorDangNhap</p>
+
+            <form action="/Accounts/DangNhap" method="post" class="space-y-5">
+                <div>
+                    <label class="text-sm opacity-90">Email</label>
+                    <input type="email" name="Email" required class="w-full mt-1 px-4 py-3 rounded-lg bg-white/20 border border-white/30 focus:ring-2 focus:ring-yellow-400 text-white placeholder-white/60">
+                </div>
+
+                <div>
+                    <label class="text-sm opacity-90">Mật khẩu</label>
+                    <input type="password" name="MatKhau" required class="w-full mt-1 px-4 py-3 rounded-lg bg-white/20 border border-white/30 focus:ring-2 focus:ring-yellow-400 text-white placeholder-white/60">
+                </div>
+
+                <button type="submit" class="btn-yellow text-white font-semibold py-3 rounded-lg w-full shadow-lg transition">Đăng nhập</button>
+            </form>
+
+            <p class="text-center mt-6 text-sm opacity-90">
+                Chưa có tài khoản?
+                <a href="@Url.Action("DangKi", "Accounts")" class="text-yellow-300 font-semibold hover:underline">Đăng ký</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
