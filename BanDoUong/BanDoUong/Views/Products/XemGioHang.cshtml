@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng - ToCoToCo</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -77,13 +78,14 @@
         }
         else
         {
-            <form id="cartForm" >
+            <form id="cartForm" method="get" action="@Url.Action("ThanhToan", "Products")">
+
                 <div class="overflow-x-auto">
                     <table class="min-w-full">
                         <thead class="bg-amber-50 text-amber-700">
                             <tr>
                                 <th class="p-3 text-center">
-                                    <input type="checkbox" id="" name="chon" class="accent-amber-500 w-4 h-4" />
+                                    <input type="checkbox" id="checkAll" name="chon" class="accent-amber-500 w-4 h-4" />
                                 </th>
                                 <th class="p-3 text-left">Sản phẩm</th>
                                 <th class="p-3 text-center">Giá</th>
@@ -100,8 +102,10 @@
                                 {
                                     <tr class="hover:bg-amber-50 transition" data-id="@item.ProductId">
                                         <td class="p-3 text-center">
+
                                             <input type="checkbox" class="product-check accent-amber-500 w-4 h-4"
-                                                   data-price="@(item.Price * item.Quantity)" />
+                                                   name="chon_san_pham" value="@item.ProductId" />
+
                                         </td>
 
                                         <td class="p-3 flex items-center gap-3">
@@ -114,8 +118,7 @@
                                         <td class="p-3 text-center">
                                             <input type="number" value="@item.Quantity" min="1"
                                                    data-id="@item.ProductId"
-                                                   class="quantity-input border border-gray-300 rounded-md w-16 px-2 py-1 text-center"
-                                                   />
+                                                   class="quantity-input border border-gray-300 rounded-md w-16 px-2 py-1 text-center" />
                                         </td>
 
                                         <td class="p-3 text-center font-semibold text-amber-700">
@@ -123,17 +126,30 @@
                                         </td>
 
                                         <td class="p-3 text-center">
-                                            <button type="button" onclick="removeItem(this)"
-                                                    class="text-red-500 hover:text-red-700 text-sm font-medium">
-                                                Xóa
-                                            </button>
+                                            <form action="@Url.Action("XoaGioHang", "Products", new { productId = item.ProductId })" method="post" style="display:inline;">
+                                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                                <button type="submit" class="text-red-500 hover:text-red-700 text-sm font-medium">
+                                                    Xóa
+                                                </button>
+                                            </form>
                                         </td>
                                     </tr>
-                                    so_luong_gio_hang++;
+                                    so_luong_gio_hang += 1;
+
                                     tong_tien += item.Price * item.Quantity;
                                 }
-                                Session["so_luong"] = so_luong_gio_hang;
-                                Session["tong_tien"] = tong_tien;
+
+                                if (Session["Cart"] == null)
+                                {
+                                    int update_so_luong = so_luong_gio_hang - 1;
+                                    Session["so_luong"] = update_so_luong;
+                                }
+                                else
+                                {
+                                    Session["so_luong"] = so_luong_gio_hang;
+                                }
+
+
                             }
                         </tbody>
                     </table>
@@ -143,11 +159,10 @@
                 <div class="flex justify-between items-center mt-6 border-t pt-4 flex-wrap gap-3">
                     <div class="text-gray-700 text-lg">
                         Tổng cộng:
-                        <span id="tongCong" class="font-bold text-amber-700 text-xl ml-2">@Session["tong_tien"]</span>
+                        <span id="tongCong" class="font-bold text-amber-700 text-xl ml-2"></span>
                     </div>
                     <button type="submit" id="btnThanhToan"
-                            class="btn-main rounded-full px-8 py-2 text-lg disabled:opacity-40 disabled:cursor-not-allowed" formaction="@Url.Action("ThanhToan", "Products")"
-                          >
+                            class="btn-main rounded-full px-8 py-2 text-lg disabled:opacity-40 disabled:cursor-not-allowed">
                         Thanh Toan
                     </button>
                 </div>
@@ -155,6 +170,64 @@
         }
     </main>
 
-    
+
 </body>
+
+
+
+<script>
+    function formatVND(n) {
+        return n.toLocaleString('vi-VN') + '₫';
+    }
+
+    function tinhTongTien() {
+        let tong = 0;
+        $('.product-check:checked').each(function () {
+            let $tr = $(this).closest('tr');
+            let gia = parseInt($tr.find('td:nth-child(3)').text().replace(/[^\d]/g, '')) || 0;
+            let soLuong = parseInt($tr.find('.quantity-input').val()) || 0;
+            tong += gia * soLuong;
+        });
+        $('#tongCong').text(formatVND(tong));
+    }
+
+    // Tích chọn tất cả
+    $('#checkAll').on('change', function () {
+        $('.product-check').prop('checked', $(this).is(':checked'));
+        tinhTongTien();
+    });
+
+    $(document).ready(function () {
+        $('.product-check, .quantity-input').on('change input', tinhTongTien);
+        tinhTongTien();
+
+        // Khi nhấn Thanh Toán
+        $('#cartForm').on('submit', function (e) {
+            e.preventDefault();
+
+            const selected = $('.product-check:checked');
+            if (selected.length === 0) {
+                alert('Vui lòng chọn ít nhất 1 sản phẩm để thanh toán.');
+                return false;
+            }
+
+            // Xóa input ẩn cũ (nếu có)
+            $(this).find('input[name="SelectedIds"]').remove();
+
+            // Thêm input ẩn cho mỗi sản phẩm được chọn
+            selected.each(function () {
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: 'SelectedIds',
+                    value: $(this).val()
+                }).appendTo('#cartForm');
+            });
+
+            // Gửi form thật sự
+            this.submit();
+        });
+    });
+</script>
+
+
 </html>

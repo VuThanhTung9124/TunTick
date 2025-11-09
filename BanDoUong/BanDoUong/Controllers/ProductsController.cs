@@ -9,7 +9,8 @@ using System.Web;
 using System.Web.Mvc;
 using BanDoUong.Models;
 using System.Collections; // nếu bạn muốn dùng ArrayList
-using System.Collections.Generic; // nếu dùng List<>
+using System.Collections.Generic;
+using System.Security.Cryptography; // nếu dùng List<>
 
 namespace BanDoUong.Controllers
 {
@@ -40,18 +41,6 @@ namespace BanDoUong.Controllers
             ViewBag.ThongBaoEmail = "Cảm ơn bạn đã gửi email cho chúng tôi!!!";
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
         // GET: Products/Details/5
         public ActionResult Details(int? id)
         {
@@ -66,18 +55,6 @@ namespace BanDoUong.Controllers
             }
             return View(product);
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -173,18 +150,6 @@ namespace BanDoUong.Controllers
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         public ActionResult XemGioHang()
         {
             List<CartItem> cart = Session["Cart"] as List<CartItem>;
@@ -192,44 +157,69 @@ namespace BanDoUong.Controllers
             {
                 cart = new List<CartItem>();
             }
+            ViewBag.TongTien = Session["tong_tien"];
             return View(cart);
         }
 
 
 
-
-        public ActionResult XoaKhoiGio(int id)
+        [HttpPost]
+        public ActionResult XoaGioHang(int productId)
         {
             List<CartItem> cart = Session["Cart"] as List<CartItem>;
             if (cart != null)
             {
-                var item = cart.FirstOrDefault(x => x.ProductId == id);
-                if (item != null)
-                {
-                    cart.Remove(item);
-                }
+                cart.RemoveAll(a => a.ProductId == productId);
                 Session["Cart"] = cart;
             }
             return RedirectToAction("XemGioHang");
         }
+
+        //[HttpPost]
+        //public ActionResult ChonSanPham(int[] chon_san_pham)
+        //{
+        //    if (chon_san_pham == null)
+        //    {
+        //        Session["tong_tien"] = 0;
+        //    }
+        //    else
+        //    {
+        //        List<CartItem> cart = Session["Cart"] as List<CartItem>;
+        //        var tongtienchon = (from a in cart
+        //                            where chon_san_pham.Contains(a.ProductId)
+        //                            select a.Quantity * a.Price).Sum();
+        //        Session["tong_tien"] = tongtienchon;
+        //    }
+        //    return RedirectToAction("XemGioHang");
+        //}
     
 
         [HttpGet]
-        public ActionResult ThanhToan()
+        public ActionResult ThanhToan(int[] SelectedIds)
         {
             List<CartItem> cartItems = Session["Cart"] as List<CartItem>;
             string thongtin = "";
 
-            foreach (var data in cartItems)
+            // Lọc ra các sản phẩm đã chọn
+            var selectedItems = (from a in cartItems
+                                 where SelectedIds.Contains(a.ProductId)
+                                 select a).ToList();
+
+
+
+            foreach (var data in selectedItems)
             {
                 thongtin += $"Tên sản phẩm: " + data.Name + "<br>" +"Số lượng: " +data.Quantity + "<br>" +"Tổng tiền: "+ ((data.Price * data.Quantity).ToString("N0")) + " <br> " + "--------------------<br>";
             }
 
+            
+            decimal tongTien = selectedItems.Sum(x => x.Price * x.Quantity);
+            Session["tong_tien"] = tongTien;
             Session["thong_tin"] = thongtin;
             Session["dat_hang"] = cartItems;
 
           
-            return View(cartItems);
+            return View(selectedItems);
         }
 
 

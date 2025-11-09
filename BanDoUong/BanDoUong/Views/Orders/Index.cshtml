@@ -16,170 +16,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phiếu Hóa Đơn Đặt Hàng</title>
     <style>
-        body {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            min-height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
+         body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
 
-        html {
-            height: 100%;
-        }
+    html {
+      height: 100%;
+    }
 
-        .invoice-wrapper {
-            max-width: 700px;
-            width: 100%;
-            background: #ffffff;
-            border: 1px solid #ddd;
-            padding: 40px;
-        }
+    .invoice-wrapper {
+      max-width: 700px;
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 40px;
+    }
 
-        .invoice-header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #333;
-        }
+    .invoice-header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #333;
+    }
 
-            .invoice-header h1 {
-                margin: 0 0 10px 0;
-                font-size: 24px;
-                color: #333;
-            }
+    .invoice-header h1 {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      color: #333;
+    }
 
-            .invoice-header p {
-                margin: 0;
-                font-size: 16px;
-                color: #666;
-            }
+    .invoice-header p {
+      margin: 0;
+      font-size: 16px;
+      color: #666;
+    }
 
-        .section {
-            margin-bottom: 30px;
-        }
+    .section {
+      margin-bottom: 30px;
+    }
 
-        .section-title {
-            font-size: 18px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #ddd;
-        }
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #ddd;
+    }
 
-        .info-row {
-            display: flex;
-            padding: 10px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
+    .info-row {
+      display: flex;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
 
-        .info-label {
-            font-weight: bold;
-            color: #333;
-            min-width: 140px;
-        }
+    .info-label {
+      font-weight: bold;
+      color: #333;
+      min-width: 140px;
+    }
 
-        .info-value {
-            color: #666;
-            flex: 1;
-        }
+    .info-value {
+      color: #666;
+      flex: 1;
+    }
 
-        .order-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 12px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
+    .order-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
 
-        .item-details {
-            flex: 1;
-        }
+    .item-details {
+      flex: 1;
+    }
 
-        .item-name {
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 4px;
-        }
+    .item-name {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 4px;
+    }
 
-        .item-quantity {
-            color: #666;
-            font-size: 14px;
-        }
+    .item-quantity {
+      color: #666;
+      font-size: 14px;
+    }
 
-        .item-price {
-            font-weight: bold;
-            color: #333;
-            margin-left: 20px;
-        }
+    .item-price {
+      font-weight: bold;
+      color: #333;
+      margin-left: 20px;
+    }
 
-        .total-section {
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 2px solid #333;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    .total-section {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 2px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-        .total-label {
-            font-size: 20px;
-            font-weight: bold;
-            color: #333;
-        }
+    .total-label {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
 
-        .total-amount {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
+    .total-amount {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
 
-        .thank-you {
-            text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
+    .thank-you {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
 
-            .thank-you p {
-                margin: 0;
-                font-size: 16px;
-                color: #666;
-            }
+    .thank-you p {
+      margin: 0;
+      font-size: 16px;
+      color: #666;
+    }
 
+    @@media (max-width: 768px) {
+      .invoice-wrapper {
+        padding: 20px;
+      }
 
+      .info-row {
+        flex-direction: column;
+      }
 
-        .info-row {
-            flex-direction: column;
-        }
+      .info-label {
+        margin-bottom: 5px;
+      }
 
-        .info-label {
-            margin-bottom: 5px;
-        }
+      .order-item {
+        flex-direction: column;
+      }
 
-        .order-item {
-            flex-direction: column;
-        }
+      .item-price {
+        margin-left: 0;
+        margin-top: 8px;
+      }
 
-        .item-price {
-            margin-left: 0;
-            margin-top: 8px;
-        }
+      .total-section {
+        flex-direction: column;
+        text-align: center;
+      }
 
-        .total-section {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .total-amount {
-            margin-top: 10px;
-        }
-        }
+      .total-amount {
+        margin-top: 10px;
+      }
+    }
     </style>
 
     <script src="/_sdk/data_sdk.js" type="text/javascript"></script>

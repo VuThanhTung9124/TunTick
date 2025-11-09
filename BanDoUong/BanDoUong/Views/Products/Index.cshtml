@@ -5,41 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ToCoToCo - Mẫu trang tĩnh (Phiên bản ảnh & hiệu ứng)</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style>
-    /* Custom styles */
-    .product-img { height: 220px; object-fit: cover; }
-    .news-img { height: 140px; object-fit: cover; }
+        /* Custom styles */
+        .product-img {
+            height: 220px;
+            object-fit: cover;
+        }
 
-    /* Carousel */
-    .carousel { position: relative; overflow: hidden; border-radius: 1rem; }
-    .carousel-track { display: flex; transition: transform 0.8s cubic-bezier(.2,.8,.2,1); }
-    .carousel-slide { min-width: 100%; box-sizing: border-box; position: relative; }
-    .carousel-slide img { width: 100%; height: 380px; object-fit: cover; display: block; filter: brightness(.85); }
+        .news-img {
+            height: 140px;
+            object-fit: cover;
+        }
 
-    /* Overlay text on hero */
-    .hero-content { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 20; color: white; text-align: center; }
-    .hero-cta { background: linear-gradient(90deg, rgba(34,197,94,1), rgba(16,185,129,1)); }
+        /* Carousel */
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
 
-    /* Indicators & arrows */
-    .carousel-indicators { position: absolute; left: 50%; transform: translateX(-50%); bottom: 12px; display:flex; gap:8px; z-index:30 }
-    .indicator { width:10px; height:10px; background:rgba(255,255,255,0.5); border-radius:50%; cursor:pointer }
-    .indicator.active { background: white }
-    .carousel-arrow { position:absolute; top:50%; transform:translateY(-50%); z-index:30; background:rgba(0,0,0,0.35); color:white; padding:8px; border-radius:999px; cursor:pointer }
-    .carousel-arrow.left { left:12px }
-    .carousel-arrow.right { right:12px }
+        .carousel-track {
+            display: flex;
+            transition: transform 0.8s cubic-bezier(.2,.8,.2,1);
+        }
 
-    /* subtle hover animation for product cards */
-    .card-hover { transition: transform .25s ease, box-shadow .25s ease; }
-    .card-hover:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.12) }
+        .carousel-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
 
-    /* fade-in when visible */
-    .fade-in { opacity:0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease }
-    .fade-in.visible { opacity:1; transform: translateY(0) }
+            .carousel-slide img {
+                width: 100%;
+                height: 380px;
+                object-fit: cover;
+                display: block;
+                filter: brightness(.85);
+            }
 
-     {
-      .carousel-slide img { height: 220px }
-      .hero-title { font-size: 28px }
-    }
+        /* Overlay text on hero */
+        .hero-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-cta {
+            background: linear-gradient(90deg, rgba(34,197,94,1), rgba(16,185,129,1));
+        }
+
+        /* Indicators & arrows */
+        .carousel-indicators {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 12px;
+            display: flex;
+            gap: 8px;
+            z-index: 30
+        }
+
+        .indicator {
+            width: 10px;
+            height: 10px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 50%;
+            cursor: pointer
+        }
+
+            .indicator.active {
+                background: white
+            }
+
+        .carousel-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 30;
+            background: rgba(0,0,0,0.35);
+            color: white;
+            padding: 8px;
+            border-radius: 999px;
+            cursor: pointer
+        }
+
+            .carousel-arrow.left {
+                left: 12px
+            }
+
+            .carousel-arrow.right {
+                right: 12px
+            }
+
+        /* subtle hover animation for product cards */
+        .card-hover {
+            transition: transform .25s ease, box-shadow .25s ease;
+        }
+
+            .card-hover:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 12px 30px rgba(0,0,0,0.12)
+            }
+
+        /* fade-in when visible */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .6s ease, transform .6s ease
+        }
+
+            .fade-in.visible {
+                opacity: 1;
+                transform: translateY(0)
+            }
+
+        {
+            .carousel-slide img
+
+        {
+            height: 220px
+        }
+
+        .hero-title {
+            font-size: 28px
+        }
+        }
     </style>
 </head>
 <body class="antialiased text-gray-700 bg-gray-50">
@@ -194,11 +289,17 @@
             <div class="rounded-xl overflow-hidden shadow relative">
                 <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1600&q=80" alt="promo" class="w-full h-64 object-cover" loading="lazy" />
                 <div class="absolute inset-0 bg-gradient-to-r from-green-800/40 to-transparent flex items-center">
-                    <div class="p-6 text-white max-w-3xl">
+                    <div class="p-6 text-white max-w-5xl">
                         <h3 class="text-2xl font-bold">A taste of nature — A cup of happiness</h3>
                         <p class="mt-2 text-sm">Thưởng thức hương vị tự nhiên, nguyên liệu tươi sạch — tận hưởng từng ngụm trà.</p>
+                        <p id="Mo_Thong_Bao" style="display: none" class="mt-2 text-sm">
+                            Chúng tôi tin rằng một ly đồ uống ngon bắt đầu từ những nguyên liệu tự nhiên, tươi sạch và được chọn lọc kỹ lưỡng. Mỗi ly trà, ly sữa hay nước trái cây đều được pha chế với sự tỉ mỉ, nhằm giữ trọn hương vị nguyên bản và tốt cho sức khỏe.
+                            Tại đây, bạn không chỉ thưởng thức một thức uống, mà còn là một trải nghiệm thư giãn — nơi mọi giác quan được đánh thức bởi hương thơm, vị ngon và cảm giác dễ chịu trong từng ngụm.
+                            Hãy để hương vị thiên nhiên lan tỏa và mang đến cho bạn niềm vui nhỏ bé trong mỗi khoảnh khắc.
+                           
+                        </p>
                         <div class="mt-4">
-                            <a href="#products" class="inline-block bg-amber-600 text-white px-4 py-2 rounded">Xem thêm</a>
+                            <button id="Xem_Them" class="inline-block bg-amber-600 text-white px-4 py-2 rounded">Xem thêm</button>
                         </div>
                     </div>
                 </div>
@@ -331,7 +432,19 @@
         entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
       }, {threshold:0.18});
       document.querySelectorAll('.fade-in').forEach(el=> observer.observe(el));
-    })();
+        })();
+
+
+        $(function () {
+            $("#Xem_Them").click(function () {
+                $("#Mo_Thong_Bao").slideToggle(500);
+            })
+        })
+
+       
+
+
+
     </script>
 </body>
 </html>
