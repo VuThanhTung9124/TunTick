@@ -24,7 +24,7 @@ Website bán đồ uống trực tuyến được xây dựng bằng **ASP.NET M
 -  Hiển thị hóa đơn sau khi mua thành công
 -  Gửi email phản hồi / liên hệ.  
 -  Quản lý dữ liệu sản phẩm với **SQL Server**.
- # Phía User: 
+ ## Phía Admin: 
  -  Quản lý (Thêm, sửa, xóa, xem chi tiết ) các sản phẩm
  -  Quản lý (Sửa, xóa) các đơn hàng
  -  Quản lý (Sửa, xóa) các tải khoản người dùng
